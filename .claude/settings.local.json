@@ -1,0 +1,20 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(.venv/Scripts/python.exe parse_olaf_to_csv.py)",
+      "Bash(.venv/Scripts/python.exe -c \"import scipy, numpy, pandas, matplotlib; print\\(scipy.__version__, numpy.__version__, pandas.__version__, matplotlib.__version__\\)\")",
+      "Bash(.venv/Scripts/python.exe -m pip install scipy numpy pandas matplotlib)",
+      "Bash(MPLBACKEND=Agg .venv/Scripts/python.exe filter_emg.py)",
+      "Bash(.venv/Scripts/python.exe -c \"import ipywidgets, IPython; print\\('ok'\\)\")",
+      "Bash(.venv/Scripts/python.exe -c \"import ipympl; print\\('ipympl ok'\\)\")",
+      "Bash(cd \"d:/Doktorat/VScode_EMG/Politech_emg\" && rm filter_emg.py)",
+      "Bash(.venv/Scripts/python.exe -m jupyter nbconvert --to notebook --execute --inplace filter_emg.ipynb)",
+      "Bash(.venv/Scripts/python.exe -c \"import plotly; print\\(plotly.__version__\\)\")",
+      "Bash(.venv/Scripts/python.exe -m pip install plotly)",
+      "Bash(.venv/Scripts/python.exe -m pip install anywidget)"
+    ],
+    "additionalDirectories": [
+      "d:\\Doktorat\\VScode_EMG\\Politech_emg"
+    ]
+  }
+}
