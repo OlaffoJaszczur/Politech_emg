@@ -11,7 +11,8 @@
       "Bash(.venv/Scripts/python.exe -m jupyter nbconvert --to notebook --execute --inplace filter_emg.ipynb)",
       "Bash(.venv/Scripts/python.exe -c \"import plotly; print\\(plotly.__version__\\)\")",
       "Bash(.venv/Scripts/python.exe -m pip install plotly)",
-      "Bash(.venv/Scripts/python.exe -m pip install anywidget)"
+      "Bash(.venv/Scripts/python.exe -m pip install anywidget)",
+      "Bash(.venv/Scripts/python.exe -m pip freeze)"
     ],
     "additionalDirectories": [
       "d:\\Doktorat\\VScode_EMG\\Politech_emg"
